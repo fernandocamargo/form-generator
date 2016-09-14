@@ -1,0 +1,7 @@
+.field.inputs .input {
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  height: 42px;
+  padding: 0 8px;
+  width: calc(100% - 18px);
+}

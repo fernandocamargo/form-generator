@@ -1,0 +1,30 @@
+.control {
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.control .input {
+  background-color: #009d61;
+  border: none;
+  border-radius: 100px;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 100%;
+  outline: 0;
+  overflow: hidden;
+  padding: 13px 0 16px;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .control .input {
+    float: right;
+    width: 220px;
+  }
+}

@@ -1,0 +1,10 @@
+@import './reset.css';
+@import './typography.css';
+@import './generic.css';
+@import './forms.css';
+
+@media only screen and (min-width: 600px) {
+  .wrapper.app {
+    padding: 50px 0;
+  }
+}
